@@ -6,7 +6,7 @@ planeData <- read.csv(url("https://raw.githubusercontent.com/jamesadhitthana/UPH
 
 ui <- fluidPage(
   br(),
-  titlePanel("2000 Airplane Flights Mapping", align = "center"),
+  headerPanel("2000 Airplane Flights Mapping", align = "center"),
   br(),
   leafletOutput("flightmap")
 )
